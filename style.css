@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: passion;
+    src: url(fontes/GoogleFonts-PassionOne-Bold.ttf);
+}
+@font-face {
+    font-family: sriracha;
+    src: url(fontes/GoogleFonts-Sriracha-Regular.ttf);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+}
+
+header > h1{
+    font-family: passion;
+    font-size: 120px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+header > p > a{
+    text-decoration: none;
+    color: white;
+}
+
+main > section > p{
+    font-family: sriracha;
+    font-size: 45px;
+    padding-left: 50px;
+    padding-top: 1em;
+    padding-bottom: 2.8em;
+    line-height: 2.2em;
+}
+
+section#img01{
+    background-image: url("imagens/background001.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem{
+    padding: 30px;
+}
+
+section.imagem > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    padding: 20px;
+}
+
+section#img02{
+    background-image: url("imagens/background002.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: black;
+    font-size: 16px;
+    color: white;
+    font-family: verdana;
+    padding: 7px;
+    text-align: center;
+}
+
+footer > p > a{
+    color: white;
+}
